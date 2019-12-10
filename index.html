@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weight Converter App</title>
+  </head>
+  <body>
+      
+    <div class="container">
+      <div class="row">
+        <div class="col-md-11">
+          <h1 class="display-4 text-center">Weight Converter</h1>
+          <form>
+            <div class="form-group">
+              <input
+                id="lbsInput"
+                type="number"
+                class="form-control-lg form-control text-warning "
+                placeholder="Enter Pounds (LBS)"
+              />
+            </div>
+          </form>
+          <div id="gramsOutput">
+            <div class="card text-primary ">
+              <div class="card-block">
+                <h4>
+                  Grams:
+                </h4>
+              </div>
+            </div>
+            <div class="card text-success ">
+              <div class="card-block ">
+                <h4>
+                  KiloGrams:
+                </h4>
+                <div id="kgOutput">
+              </div>
+              <div class="card text-danger ">
+                    <div class="card-block ">
+                      <h4>
+                    Ounces:
+                      </h4>
+                      <div id="ozOutput"></div>
+                    </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
